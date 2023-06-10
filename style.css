@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common code starts here */
+:root{
+    --brand-color:#87d37c;
+    --light-color:#ffffff;
+    --dark-color:#000000;
+    --soft-color:#e1e1e1;
+}
+.brand-color{
+    color: var(--brand-color);
+}
+.justify{
+    text-align: justify;
+}
+/* common codeending here */
+/* navbar section starts here */
+.nav-link {
+   text-transform: uppercase;
+    color: var(--light-color);
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--brand-color);
+}
+.nav-link:hover{
+    color: var(--brand-color);
+}
+/* navbar section ending here */
+/* banner section starts here */
+.banner-section{
+    background: url(Assets/images/hero-image.gif) no-repeat;
+    background-size: cover;
+    margin-top: -110px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 1;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.carousel-indicators .active{
+    background-color: var(--brand-color);
+}
+/* banner section ending here */
+/* about us section starts here  */
+.content-item:hover i,
+.content-item:hover h3{
+    color: var(--brand-color);
+}
+/* about us section ending here  */
